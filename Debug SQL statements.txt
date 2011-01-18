@@ -1,0 +1,20 @@
+select *
+from ollydbg.functions_1, sabre.functions_1
+where ollydbg.functions_1.address = sabre.functions_1.address;
+
+select * from  sabre.functions_1 where function_type = 0;
+
+select ollydbg.callgraph_1.*, sabre.callgraph_1.*
+from ollydbg.callgraph_1, sabre.callgraph_1, ollydbg.functions_1
+where ollydbg.callgraph_1.src_address = sabre.callgraph_1.src_address
+and ollydbg.callgraph_1.dst = sabre.callgraph_1.dst
+and ollydbg.functions_1.function_type in ( 0, 3)
+and ollydbg.functions_1.address = ollydbg.callgraph_1.dst;
+
+select count(*)
+from sabre.callgraph_1, sabre.functions_1
+where dst = address and function_type in (0,3);
+
+select count(*)
+from ollydbg.callgraph_1, ollydbg.functions_1
+where dst = address and function_type in (0,3);

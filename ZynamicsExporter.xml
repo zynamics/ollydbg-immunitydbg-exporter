@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<ZynamicsExporter>
+    <LoggingActive value="true" />
+    <DatabaseConnectionString value="host=localhost user=root password=s3rv3r port=4444" />
+    <QuerySize value="1048576" />
+</ZynamicsExporter>

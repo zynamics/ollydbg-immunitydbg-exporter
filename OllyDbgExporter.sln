@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OllyDbgExporter", "OllyDbgExporter.vcproj", "{17624DD7-72D7-48E0-8F78-240BAC8097CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		ImmunityDebug|Win32 = ImmunityDebug|Win32
+		ImmunityDebug|x64 = ImmunityDebug|x64
+		ImmunityRelease|Win32 = ImmunityRelease|Win32
+		ImmunityRelease|x64 = ImmunityRelease|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Debug|Win32.Build.0 = Debug|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Debug|x64.ActiveCfg = Debug|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Debug|x64.Build.0 = Debug|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityDebug|Win32.ActiveCfg = ImmunityDebug|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityDebug|Win32.Build.0 = ImmunityDebug|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityDebug|x64.ActiveCfg = ImmunityDebug|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityDebug|x64.Build.0 = ImmunityDebug|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityRelease|Win32.ActiveCfg = ImmunityRelease|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityRelease|Win32.Build.0 = ImmunityRelease|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityRelease|x64.ActiveCfg = ImmunityRelease|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.ImmunityRelease|x64.Build.0 = ImmunityRelease|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Release|Win32.ActiveCfg = Release|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Release|Win32.Build.0 = Release|Win32
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Release|x64.ActiveCfg = Release|x64
+		{17624DD7-72D7-48E0-8F78-240BAC8097CA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
